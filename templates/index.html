@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>AI Portfolio</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+    <!-- ============================= -->
+    <!-- NAVBAR -->
+    <!-- ============================= -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            AI Portfolio
+        </div>
+
+        <div class="nav-right">
+
+            <!-- ============================= -->
+            <!-- SEARCH BAR -->
+            <!-- ============================= -->
+
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Ask about my skills, projects, experience..."
+                >
+
+                <button
+                    id="searchButton"
+                    type="button">
+                    🔍
+                </button>
+
+            </div>
+
+
+            <!-- ============================= -->
+            <!-- DOWNLOAD RESUME -->
+            <!-- ============================= -->
+
+            <a
+                href="/resume"
+                class="resume-btn">
+                📄 Download Resume
+            </a>
+
+
+            <!-- ============================= -->
+            <!-- DOWNLOAD STUDENT LOSS DOCUMENT -->
+            <!-- ============================= -->
+
+            <a
+                href="/student-loss"
+                class="resume-btn">
+                📄 Student Loss Amount
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- ============================= -->
+    <!-- PORTFOLIO CONTENT -->
+    <!-- ============================= -->
+
+    <main>
+
+        <!-- ============================= -->
+        <!-- AI ANSWER -->
+        <!-- ============================= -->
+
+        <section id="searchResult">
+
+            <div class="ai-title">
+                🤖 AI Answer
+            </div>
+
+            <div class="ai-response">
+                Ask me anything about my portfolio.
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ============================= -->
+    <!-- JAVASCRIPT -->
+    <!-- ============================= -->
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>

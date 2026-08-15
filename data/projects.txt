@@ -1,0 +1,30 @@
+PROJECTS
+
+AI Portfolio RAG
+
+Built an AI-powered portfolio website with a search interface designed to retrieve information about my skills, projects, experience and certifications.
+
+
+Smart Accident Risk Classification Using Traffic and Signal Data
+
+Developed a machine learning system to classify accident risk using traffic and signal-related data.
+
+
+Wind Turbine Failure Prediction
+
+Built a machine learning model to predict wind turbine failures. Performed data cleaning, feature engineering and anomaly detection.
+
+
+AI-Based Road Sign Reflectivity Detection
+
+Developed an AI-based computer vision system to detect faded and damaged road signs using Python and OpenCV.
+
+
+Cartoon Style Facial Expression Generation
+
+Mini project based on Cartoon Style Facial Expression Generation using Stack GAN.
+
+
+Crowd Patrol
+
+Major academic project based on a mobile crowdsensing framework for traffic violation hotspot patrolling.

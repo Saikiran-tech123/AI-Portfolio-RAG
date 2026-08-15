@@ -1,0 +1,27 @@
+KEY SKILLS
+
+Python
+SQL
+Machine Learning
+Generative AI (GenAI)
+Prompt Engineering
+Retrieval-Augmented Generation (RAG)
+AI Agents
+LLM Evaluation
+Context Engineering
+Data Analysis
+Exploratory Data Analysis (EDA)
+Data Visualization
+Pandas
+NumPy
+OpenCV
+Scikit-learn
+Power BI
+MySQL
+HTML
+CSS
+JavaScript
+Git
+GitHub
+Docker
+MLflow
